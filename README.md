@@ -31,6 +31,18 @@ LocalStorage support(tasks + theme saved)
 
 ## Screenshots
 
+### Light Mode
+
+![Light Mode] (screenshots/Light.png)
+
+### Dark Mode
+
+![Dark Mode] (screenshots/Dark.png)
+
+### Mobile View
+
+![Mobile View] (screenshots/Mobile.png)
+
 ---
 
 ## How to Run Locally
@@ -43,4 +55,5 @@ LocalStorage support(tasks + theme saved)
 ---
 
 ## Live Demo
+
 https://nithya-task-manager.netlify.app
