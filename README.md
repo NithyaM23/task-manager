@@ -33,15 +33,15 @@ LocalStorage support(tasks + theme saved)
 
 ### Light Mode
 
-![Light Mode] (screenshots/Light.png)
+![Light Mode](screenshots/Light.png)
 
 ### Dark Mode
 
-![Dark Mode] (screenshots/Dark.png)
+![Dark Mode](screenshots/Dark.png)
 
 ### Mobile View
 
-![Mobile View] (screenshots/Mobile.png)
+![Mobile View](screenshots/Mobile.png)
 
 ---
 
