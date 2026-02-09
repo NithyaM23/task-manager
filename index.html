@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task Manager</title>
+
+        <link rel="stylesheet" href="../css/style.css" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    </head>
+
+    <body>
+        <div class="app">
+
+            <!-- Header -->
+            <div class="header">
+                <h1>Task Manager</h1>
+
+                    <button id="themeToggle" aria-label="Toggle theme">
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+            </div>
+
+            <!-- Main Content -->
+            <div class="content">
+
+                <!-- Task Controls -->
+                <div class="task-controls">
+                    <input type="text" id="taskInput" placeholder="Enter your task" />
+
+                    <select id="prioritySelect">
+                        <option value="High">High Priority</option>
+                        <option value="Medium" selected>Medium Priority</option>
+                        <option value="Low">Low Priority</option>
+                    </select>
+
+                    <button class="addTask">Add Task</button>
+                </div>
+
+                <!-- Filters -->
+                <div class="filters">
+                    <select id="statusFilter" >
+                        <option value="all">All</option>
+                        <option value="completed">Completed</option>
+                        <option value="pending">Pending</option>
+                    </select>
+
+                    <input type="text" id="searchInput" placeholder="Search task..."/>
+
+                    <button id="clearCompleted">Clear Completed</button>
+                </div>
+
+                <!-- Task List -->
+                <div class="task-list">
+                    <ul></ul>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="footer" style="justify-content: center; font-size: 21px;">
+                <p class="task-status">
+                    <span class="total">Total Task : 0</span>
+                    <span class="completed">Completed task : 0</span>
+                    <span class="pending">Pending task : 0</span>
+                </p>
+
+                <p class="footer-text">
+                    Built with HTML, CSS & JavaScript | LocalStorage Task Manager
+                </p>
+            </div>
+        </div>
+        
+        <script src="../js/script.js"></script>
+    </body>
+
+</html>
+
