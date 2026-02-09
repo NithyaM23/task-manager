@@ -43,3 +43,4 @@ LocalStorage support(tasks + theme saved)
 ---
 
 ## Live Demo
+https://nithya-task-manager.netlify.app
