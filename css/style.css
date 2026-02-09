@@ -228,13 +228,13 @@ body {
 }
 
 .dark .footer-text {
-    color: #bbb;
+    color: #fff;
 }
 
 /* Dark Mode */
 body.dark {
     background-color: #121212;
-    color: #f5f5f5;
+    color: #e0e0e0;
 }
 
 body.dark .app {
