@@ -84,9 +84,22 @@ input.addEventListener('keydown', (e) => {
 //Add task
 addBtn.addEventListener('click', () => {
     const taskText = input.value.trim();
-    if(taskText === '') 
-        return;
 
+    //Empty input
+    if(taskText === "") {
+        alert("Please enter a task!");
+        return;
+    }
+
+    //Duplicate warning
+    const isDuplicate = tasks.some(task => task.text.toLowerCase() === taskText.toLowerCase());
+
+    if(isDuplicate) {
+        const confirmAdd = confirm("This task already exists. Do you still want to add it?");
+        if(!confirmAdd)
+            return;
+    }
+        
     tasks.push({
         text: taskText,
         completed: false,
